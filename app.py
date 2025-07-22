@@ -4,9 +4,9 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 # --- CONFIGURATION --- #
-VENOM_API = "https://74b3ccbb787c.ngrok-free.app"  # 🔁 Change when ngrok URL resets
-SERVICE_ACCOUNT_FILE = "C:/Users/91939/OneDrive/Desktop/venom-Bot/whatsapp-bot/fresh-heuristic-466318-q6-34ff0681a909.json"  # ✅ Keep in same folder as app.py
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1XEBjaVJUxju2Od9z1GGRzPWf_UwZMHfAqY2A4bvXOOQ/edit#gid=0"
+VENOM_API = " "  # 🔁 Change when ngrok URL resets
+SERVICE_ACCOUNT_FILE = "  "  # ✅ Keep in same folder as app.py
+SHEET_URL = "  "
 
 # --- VERIFY SERVICE ACCOUNT FILE EXISTS --- #
 if not os.path.exists(SERVICE_ACCOUNT_FILE):
