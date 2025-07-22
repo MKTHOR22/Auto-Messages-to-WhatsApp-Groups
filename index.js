@@ -1,9 +1,9 @@
 const venom = require('venom-bot');
 const express = require('express');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const creds = require('./fresh-heuristic-466318-q6-34ff0681a909.json');
+const creds = require('  ');#json
 
-const SHEET_ID = '1XEBjaVJUxju2Od9z1GGRzPWf_UwZMHfAqY2A4bvXOOQ';
+const SHEET_ID = '  ';
 const SHEET_TAB = 'GroupIDs';
 let client; // ✅ Global WhatsApp client for API use
 
